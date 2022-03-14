@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customshape"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:id="@+id/action_bar"
+        android:background="@drawable/action_bar_back"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="27sp"
+            android:textColor="#F1DF1E"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/row1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/timer1" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 : 20"
+            android:textColor="#ECF4F6"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/row2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:src="@drawable/footstep" />
+
+            <TextView
+                android:id="@+id/textScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:textColor="#EAF2F3"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/row2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#EAF2F3"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt1"
+                style="@style/GameItem"
+                android:text="5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but2"
+                style="@style/GameItem"
+                android:layout_toRightOf="@+id/bt1"
+                android:text="2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but3"
+                style="@style/GameItem"
+                android:layout_toRightOf="@+id/but2"
+                android:text="9" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but4"
+                style="@style/GameItem"
+                android:layout_toRightOf="@+id/but3"
+                android:text="7" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but5"
+                style="@style/GameItem"
+                android:layout_below="@+id/bt1"
+                android:text="6" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but6"
+                style="@style/GameItem"
+                android:layout_below="@+id/but2"
+                android:layout_toRightOf="@+id/but5"
+                android:text="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but7"
+                style="@style/GameItem"
+                android:layout_below="@+id/but3"
+                android:layout_toRightOf="@+id/but6"
+                android:text="4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but8"
+                style="@style/GameItem"
+                android:layout_below="@+id/but4"
+                android:layout_toRightOf="@+id/but7"
+                android:text="3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but9"
+                style="@style/GameItem"
+                android:layout_below="@+id/but5"
+                android:text="8" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but10"
+                style="@style/GameItem"
+                android:layout_below="@+id/but6"
+                android:layout_toRightOf="@+id/but9"
+                android:text="15" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but11"
+                style="@style/GameItem"
+                android:layout_below="@+id/but7"
+                android:layout_toRightOf="@+id/but10"
+                android:text="11" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but12"
+                style="@style/GameItem"
+                android:layout_below="@+id/but8"
+                android:layout_toRightOf="@+id/but11"
+                android:text="14" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but13"
+                style="@style/GameItem"
+                android:layout_below="@+id/but9"
+                android:text="12" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but14"
+                style="@style/GameItem"
+                android:layout_below="@+id/but10"
+                android:layout_toRightOf="@id/but13"
+                android:text="13" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but15"
+                style="@style/GameItem"
+                android:layout_below="@+id/but11"
+                android:layout_toRightOf="@id/but14"
+                android:text="10" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/but12"
+                android:layout_marginStart="0.5dp"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginEnd="0.5dp"
+                android:layout_marginRight="0.5dp"
+                android:layout_marginBottom="0.5dp"
+                android:layout_toEndOf="@id/but15"
+                android:layout_toRightOf="@id/but15"
+                android:background="@drawable/empty_item"
+                android:textColor="#171010"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/sound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_mute"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:onClick="mediaPlayer"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_exit"
+            android:clickable="true"
+            android:onClick="clickFinish"
+            android:focusable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_exit"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickRestart"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:src="@drawable/refresh" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

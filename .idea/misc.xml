@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/about_back_btn.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/action_bar_back.xml" value="0.19444444444444445" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/bg_button.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/bg_exit.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/bg_menu_button.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/customshape.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/empty_item.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/ic_backsvg.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/ic_mute.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/ic_volume.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/info_layout_back.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/price_back.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/price_custom_dialog.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/row1.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/row2.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/row3.xml" value="0.14444444444444443" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/drawable/top_circle_phone.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/layout/activity_about.xml" value="0.2006340579710145" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/layout/price_custom_dialog.xml" value="0.17" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Android Projects/Task2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
