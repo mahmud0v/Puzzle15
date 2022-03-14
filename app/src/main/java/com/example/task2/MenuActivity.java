@@ -16,8 +16,8 @@ public class MenuActivity extends AppCompatActivity {
         findViewById(R.id.button_about).setOnClickListener(v -> aboutApp());
         findViewById(R.id.button_exit).setOnClickListener(v -> exitApp());
         findViewById(R.id.button_settings).setOnClickListener(v -> settingsGame());
-        SharedPreferences rememberSharedPref = getSharedPreferences("remember",MODE_PRIVATE);
-        rememberSharedPref.edit().putInt("remember",0).commit();
+        SharedPreferences rememberSharedPref = getSharedPreferences("remember", MODE_PRIVATE);
+        rememberSharedPref.edit().putInt("remember", 0).commit();
     }
 
     private void aboutApp() {

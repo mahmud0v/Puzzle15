@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (winNum == 15) {
             Toast.makeText(this, "Yutdingiz, mazzami:)", Toast.LENGTH_SHORT).show();
-            saveDB(chronometer.getText().toString(),score);
+            saveDB(chronometer.getText().toString(), score);
             onStop();
         }
     }
@@ -143,12 +143,11 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
-    public void saveDB(String time, int score){
-            getSharedPreferences("time",MODE_PRIVATE).edit().putString("time",time).commit();
-            getSharedPreferences("step",MODE_PRIVATE).edit().putInt("step",score).commit();
+    public void saveDB(String time, int score) {
+        getSharedPreferences("time", MODE_PRIVATE).edit().putString("time", time).commit();
+        getSharedPreferences("step", MODE_PRIVATE).edit().putInt("step", score).commit();
 
     }
-
 
 
     @Override
@@ -170,8 +169,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void mediaPlayer(View v) {
         number++;
-//        mediaPlayer.setLooping(true);
-
 
         mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
